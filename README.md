@@ -1,4 +1,4 @@
-# Doctor
+# Doctor [i3-gaps]
 
 Here's my rice. 
 
