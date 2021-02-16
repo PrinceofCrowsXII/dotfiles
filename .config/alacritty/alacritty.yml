@@ -1,0 +1,71 @@
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xffffff'
+
+  # Normal colors
+  normal:
+    black:   '0x202020'
+    red:     '0xa07070'
+    green:   '0x70a070'
+    yellow:  '0xa0a070'
+    blue:    '0x7070a0'
+    magenta: '0xa070a0'
+    cyan:    '0x70a0a0'
+    white:   '0xa0a0a0'
+
+  # Bright colors
+  bright:
+    black:   '0x505050'
+    red:     '0xd07070'
+    green:   '0x70d070'
+    yellow:  '0xd0d070'
+    blue:    '0x7070d0'
+    magenta: '0xd070d0'
+    cyan:    '0x70d0d0'
+    white:   '0xf0f0f0'
+
+
+
+
+
+    
+font: 
+
+  size: 8.0
+
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+window:
+  padding:
+    x: 2
+    y: 2
+  # scrolling:
+  #   # Maximum number of lines in the scrollback buffer.
+  #   # Specifying '0' will disable scrolling.
+  history: 10000
+  #   # Number of lines the viewport will move for every line scrolled when
+  #   # scrollback is enabled (history > 0).
+  #   multiplier: 10
+
+  # # If `true`, bold text is drawn using the bright color variants.
+  # draw_bold_text_with_bright_colors: true
+
+  # selection:
+  semantic_escape_chars: ',│`|:"'' ()[]{}<>'
+  save_to_clipboard: true
+  live_config_reload: true
+key_bindings:
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
+  - { key: Key0, mods: Control, action: ResetFontSize }
+  - { key: Equals, mods: Control, action: IncreaseFontSize }
+  # - { key: Add, mods: Control, action: IncreaseFontSize }
+  # - { key: Subtract, mods: Control, action: DecreaseFontSize }
+  - { key: Minus, mods: Control, action: DecreaseFontSize }
+  - { key: N, mods: Control, action: SpawnNewInstance }
