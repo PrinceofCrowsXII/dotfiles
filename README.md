@@ -7,9 +7,9 @@ Here's my rice.
 ![alt text](https://github.com/PrinceofCrowsXII/dotfiles/blob/main/Sreenshots/sysmenu.png)
 
 
-OS : Manjaro
-WM : i3-gaps
-Shell : ZSH
+OS : Manjaro <br />
+WM : i3-gaps <br />
+Shell : ZSH <br />
 Terminal : alacritty
 Launcher : rofi
 Bar : Polybar
